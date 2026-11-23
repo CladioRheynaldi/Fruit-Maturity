@@ -16,3 +16,11 @@ tmp/
 *.onnx
 .DS_Store
 Thumbs.db
+build_brief_report.py
+build_indonesian_report.py
+build_revised_report.py
+collect_pdf_evidence.py
+generate_pdf_report.py
+report_collect.py
+report_measurements.py
+requirements-report.txt

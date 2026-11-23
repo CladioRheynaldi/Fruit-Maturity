@@ -8,11 +8,11 @@ cd Fruit-Maturity
 python -m pip install -r requirements.txt
 ```
 
-This repository contains source code and setup documentation. Datasets, trained checkpoints, evaluation outputs, PDFs, caches, and logs are excluded from Git. Download the datasets and train the models using the commands below before running inference or `verify.py` on a fresh clone. The report scripts additionally require `python -m pip install -r requirements-report.txt` and their saved report evidence files. Local Windows paths shown in the documentation refer to the original project location; use your clone directory instead.
+This repository contains the application, data preparation, training, evaluation, tests, and setup documentation. Datasets, trained checkpoints, evaluation outputs, PDF generation scripts, PDFs, caches, and logs are excluded from Git. Download the datasets and train the models using the commands below before running inference or `verify.py` on a fresh clone. Local Windows paths shown in the documentation refer to the original project location; use your clone directory instead.
 
 A working PyTorch fruit maturity classification project with four completed experiments per fruit and a local web application. The application supports five fruits: **Banana, Apple, Orange, Strawberry, and Pineapple**.
 
-**Implementation status:** Full multi-fruit classification, data preparation, duplicate cleaning, training, evaluation, Flask web application, and technical documentation are implemented and verified across all five fruits. A comprehensive PDF technical report is generated at `Fruit_Maturity_Technical_Report.pdf`.
+**Implementation status:** Multi-fruit classification, data preparation, duplicate cleaning, training, evaluation, and the Flask web application are implemented and verified across all five fruits.
 
 ## Project objective
 
